@@ -1,4 +1,6 @@
 🌟 Text Summarization using NLP 🌟
+
+
 Group-3 Project Collaborators:  Anurag DVS, V. Srujana, Prabhjot Singh, Preeti Panjwani, Rupesh Sharda, Shreepad Raut
 Abstractive Summarization with T5 Model
 This project utilizes the T5 model, a state-of-the-art transformer-based architecture, to create summaries that may include rephrasing and new phrases not present in the original text.
