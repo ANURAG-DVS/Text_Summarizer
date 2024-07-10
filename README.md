@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 🌟 Text Summarization using NLP 🌟
 
 
@@ -57,4 +56,3 @@ Results
 📊 The project generates extractive summaries that capture the essence of the original text. The results are displayed in a structured table format for clarity. The summary model is saved as a pkl file for easy integration into web applications.
 =======
 
->>>>>>> develop
