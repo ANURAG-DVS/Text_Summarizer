@@ -2,7 +2,6 @@ import spacy
 from spacy.lang.en.stop_words import STOP_WORDS
 from string import punctuation
 from heapq import nlargest
-import pickle
 
 # Load spaCy model
 nlp = spacy.load('en_core_web_sm')
@@ -65,8 +64,3 @@ def extractive_summarize(text):
 #     text = "Your text here."
 #     summary = extractive_summarize(text)
 #     print("Extractive Summary:\n", summary)
-
-#     # Save the summary as a pickle file
-#     table = [["Original Text", text], ["Extractive Summary", summary]]
-#     with open('extractive_summary.pkl', 'wb') as f:
-#         pickle.dump(table, f)
