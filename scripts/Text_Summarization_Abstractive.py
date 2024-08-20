@@ -1,9 +1,3 @@
-# abstractive_summarizer.py
-
-# Install necessary libraries if not already installed
-# !pip install transformers datasets evaluate py7zr rouge_score torch accelerate -U
-
-# Import required libraries
 from datasets import load_dataset
 from transformers import T5Tokenizer, T5ForConditionalGeneration, Trainer, TrainingArguments, DataCollatorForSeq2Seq
 from rouge_score import rouge_scorer

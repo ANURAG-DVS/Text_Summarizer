@@ -2,6 +2,9 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
+
+import sys
+sys.path.append('/Users/anuragdvs/Desktop/Text_Summariser/scripts')
 from Text_Summarization_Extractive import extractive_summarize
 from Text_Summarization_Abstractive import abstractive_summarize
 
